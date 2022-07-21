@@ -1,0 +1,104 @@
+/* responsive for mobile */
+
+@media (max-width:480px) {
+    .content {
+       
+        text-align: center;
+    }
+
+    .length {
+        width: 100%;
+       
+    }
+    .bil-board {
+        flex-direction: column;
+    }
+
+    article.main-matches {
+      
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        width: 90%;
+       
+    }
+    .match-buttons {
+        display: flex;
+        
+    }
+    .content h1 {
+        text-align: center;
+        margin-top: 79px;
+    }
+    .content p {
+        text-overflow: ellipsis;
+        
+    }
+    button.btn.show {
+          
+        display: none;
+    }
+
+
+}
+
+
+/* ==========================
+======== For tablet =================
+=================================== */
+
+@media (max-width:768px) {
+
+    
+
+    .live-match{
+        grid-template-columns: auto;
+    }
+    
+    article.main-matches {
+      
+        grid-template-columns: repeat(2,1fr);
+
+        
+       
+    }
+    .match-buttons {
+       
+        display: block;
+    }
+
+
+    aside.match {
+      
+        height: auto;
+        background: transparent;
+        box-shadow: 2px 2px 40px #ddd;
+    }
+    .item-list {
+        
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+        .content h1 {
+            font-size: 2rem;
+            
+        }
+        .content p {
+            font-size: .8rem;
+            
+        }
+        button.btn.show {
+          
+            display: block;
+        }
+
+   }
+
+   
+
+
+
+
+
