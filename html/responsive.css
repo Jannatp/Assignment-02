@@ -1,13 +1,13 @@
 /* responsive for mobile */
 
-@media only screen and (max-width:688px){
+@media only screen and (max-width:688px) {
     .content {
        
         text-align: center;
     }
 
     .length {
-        width: 100%;
+        width: 80%;
        
     }
     .bil-board {
@@ -15,10 +15,10 @@
     }
 
     article.main-matches {
-      
         grid-template-columns: repeat(1,1fr);
+
         margin: auto;
-        width: 90%;
+        width: 100% ;
        
     }
     .match-buttons {
@@ -68,7 +68,7 @@
       
         height: auto;
         background: transparent;
-        box-shadow: 2px 2px 40px rgb(153, 115, 115);
+        box-shadow: 2px 2px 40px #ddd;
     }
     .item-list {
         

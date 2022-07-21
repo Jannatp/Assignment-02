@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -33,19 +32,13 @@ img{
     transition: .7s;
 }
 
-/* i.fa-solid.fa-arrow-right {
-    animation: blinking 5s ease-in-out infinite;
-    transition: .7s;
-    font-weight: 700;
-} */
-
 .btn-red:hover{
     background: rgb(71, 60, 60);
 }
 .line{
     margin: 50px auto;
 }
-.content{
+.content {
     width: 80%;
     margin: auto;
 }
@@ -64,7 +57,6 @@ img{
     font-size: 3.37rem;
     margin-bottom: 8px;
 }
-
 
 /* middle part button design  */
 
@@ -95,7 +87,43 @@ a.btn.color{
     color: bisque;
 
 }
-/* end  */
+/* middle part */
+/* sedule */
+
+#game-time.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#game-time .image img{
+    width: 38%;
+    
+}
+
+#game-time h6 {
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.live-match:hover .image img{
+        transform: scale(1.1);
+        border-radius: 5px;
+
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+  
+    margin-top: 20px;
+}
+.center p {
+    color: #917575;
+   
+    padding-top: 5px;
+}
+
+
 .btn{
     text-decoration: none;
     color: #000;
@@ -119,38 +147,16 @@ a.btn.color{
     margin-bottom: 60px;
 }
 .live-match {
-    border: 1px solid #eee3e3;
-    box-shadow: 2px 2px 40px rgb(233, 222, 222);
+    border: 1px solid #c2b7b7;
+    box-shadow: 2px 2px 40px rgb(218, 207, 207);
     border-radius: 10px;
     padding: 25px;
     
 }
-.icon {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin: 0 10px;
-}
-.icons {
-    display: flex;  
-    margin-top: 20px;
-}
-.icon img {
-    width: 20px;
-    height: 20px;
-}
-button.extra-button {
-    background: red;
-    color: rgb(31, 25, 25);
-    font-weight: 700;
-    margin-top: 14px;
-    margin: auto;
-    margin-bottom: 50px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
+
+
+
+
 
 /* style for footer start from here */
 
