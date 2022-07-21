@@ -33,12 +33,6 @@ img{
     transition: .7s;
 }
 
-/* i.fa-solid.fa-arrow-right {
-    animation: blinking 5s ease-in-out infinite;
-    transition: .7s;
-    font-weight: 700;
-} */
-
 .btn-red:hover{
     background: rgb(71, 60, 60);
 }
@@ -67,7 +61,6 @@ img{
 
 
 /* middle part button design  */
-
 .matches{
     display: grid;
     grid-template-columns: 300px auto;
